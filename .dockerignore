@@ -12,6 +12,9 @@ docker/Dockerfile*
 images
 node_modules
 scripts
+/vendor/zigbee-herdsman/dist
+/vendor/zigbee-herdsman/docs
+/dist
 test
 coverage
 update.sh
