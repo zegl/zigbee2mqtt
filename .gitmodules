@@ -1,0 +1,6 @@
+[submodule "vendor/zigbee-herdsman"]
+	path = vendor/zigbee-herdsman
+	url = https://github.com/zegl/zigbee-herdsman.git
+[submodule "vendor/zigbee-herdsman-converters"]
+	path = vendor/zigbee-herdsman-converters
+	url = https://github.com/zegl/zigbee-herdsman-converters.git
