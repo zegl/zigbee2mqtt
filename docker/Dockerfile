@@ -12,7 +12,7 @@ COPY lib ./lib
 RUN apk add make gcc g++ python3 linux-headers git npm
 RUN npm ci --production --no-audit --no-optional --no-update-notifier
 # Serialport needs to be rebuild for Alpine https://serialport.io/docs/9.x.x/guide-installation#alpine-linux
-RUN rebuild --build-from-source
+RUN npm rebuild --build-from-source
 
 # Release
 FROM base as release
